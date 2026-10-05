@@ -11,6 +11,6 @@ return [
         'Entregado',
     ],
 
-    'sheet_id'   => env('GOOGLE_SHEET_ID'),
-    'sheet_name' => env('GOOGLE_SHEET_NAME', 'Historial'),
+    'sheets_url'    => env('SHEETS_WEBHOOK_URL'),
+    'sheets_secret' => env('SHEETS_WEBHOOK_SECRET'),
 ];
